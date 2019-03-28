@@ -1,0 +1,283 @@
+body {
+	margin: 0;
+	min-width: 1440px;
+}
+
+.page-header {
+	
+	height: 530px;
+	background-color: #eeeeee;
+	padding: 10px;
+	margin-bottom: 80px;
+}
+
+.page-header .logo {
+	
+	margin-bottom: 80px;
+}
+
+.page-header .main-navigation {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	min-width: 440px;
+	position: relative;
+	left: 502px;
+	bottom: 120px;
+}
+
+.page-header .main-navigation li {
+	display: inline-block;
+	margin: 0;
+	margin-right: 50px;
+}
+
+.page-header .main-navigation .shopping-cart {
+	margin-left: 286px;
+}
+
+.page-header .main-navigation .shopping-cart-icon {
+	margin-right: 26px;
+}
+
+.page-header a {
+	display: inline-block;
+	font-family: Roboto Medium;
+	text-decoration: none;
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+}
+
+.page-header .about-service {
+	min-width: 380px;
+	font-family: Roboto Medium;
+	white-space: nowrap;
+	
+}
+
+.page-header .about-service h1 {
+	font-size: 55px;
+	line-height: 15px;
+	margin-bottom: 30px;
+}
+
+.page-header .about-service p {
+	font-size: 16px;
+	line-height: 15px;	
+}
+
+.page-header .about-service-description {
+	margin-top: 60px;
+}
+
+.page-header .slide1 {
+	position: absolute;
+	top: 132px;
+	left: 571px;
+}
+
+.page-header .button {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	width: 240px;
+	height: 50px;
+	background-color: #fb565a;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	margin-top: 42px;
+	border-radius: 3px;
+
+}
+
+.page-header .button a {
+	color: #ffffff;
+}
+
+.page-header .button:hover {
+	background-color: #e74246;
+}
+
+.page-header .button a:active {
+	color: #a6a6a6;
+}
+
+.page-header .logo:hover {
+	opacity: 0.8;
+}
+
+.page-header .logo:active {
+	opacity: 0.5;
+}
+
+.page-header .main-navigation a:hover {
+	color: #fb565a;
+}
+
+.page-header .main-navigation a:active {
+	color: #a6a6a6;
+}
+
+.features {
+	height: 507px;
+	border-bottom: px solid #eeeeee;
+}
+
+.features .features-list {
+	list-style: none;
+	font-family: Roboto Regular;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	white-space: nowrap;
+
+}
+
+.features .features-list li {
+	display: inline-block;
+	width: 300px;
+	margin-right: 100px;
+	white-space: nowrap;
+
+}
+
+.features .features-list h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	line-height: 15px
+}
+
+.features .features-list p {
+	font-size: 16px;
+	line-height: 15px
+	white-space: nowrap;
+	margin: 0;
+}
+
+.features .features-list .button {
+	display: flex;
+	text-decoration: none;
+	background-color: #00ca74;
+	width: 160px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 3px;
+	margin-top: 35px;
+}
+
+.features .features-list .button:hover {
+	background-color: #00bc6c;
+}
+
+.features .features-list .button:active {
+	background-color: #00aa62;
+	color: #4dc491;
+}
+
+.about-us .container-1 {
+	float: left;
+	width: 700px;
+	font-family: Roboto Regular;
+	margin-left: 10px;
+}
+
+.about-us .container-2 {
+	float: right;
+	width: 600px;
+	font-family: Roboto Regular;
+}
+
+.about-us .container-1 ul {
+	
+}
+
+.about-us .container-1 strong {
+	font-family: Roboto Medium;
+	font-size: 45px;
+}
+
+.about-us .container-1 p {
+	font-family: Roboto Regular;
+	font-size: 16px;
+}
+
+.about-us .container-2 {
+	position: relative;
+	bottom: 20px;
+}
+
+.about-us .container-2 ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 40px;
+	
+}
+
+.about-us .container-2 li  {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.about-us .container-2 li {
+	margin: 0;
+	padding: 0;
+	margin-right: 27px;
+}
+
+
+
+.about-us .container-2 p {
+	font-size: 16px;
+}
+
+
+.about-us .container-2 img {
+	position: relative;
+	left: 40px;
+}
+
+.about-us .container-2 .bold {
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.about-us .container-2 .no-margin {
+	margin-top: -20px;
+}
+
+.about-us .container-2 .bold-p {
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	left: 60px;
+}
+
+.partners {
+	display: inline-block;
+	justify-content: center;
+}
+
+.partners img {
+	margin-right: 96px;
+	opacity: 0.5;
+}
+
+.partners img:hover {
+	opacity: 1.0;
+}
+
+.partners img:active {
+	opacity: 0.3;
+}
+
+iframe {
+	width: 100%;
+}
